@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Dinozavr" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Dinozavr" parent="Base.Theme.Dinozavr"/>
+
+    <style name="Theme.Dinozavr.noActionBar">\
+        <item name="windowNoTitle">true</item>
+        <!-- панель действия -->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen"/>
+    </style>
+
+
+</resources>
